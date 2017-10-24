@@ -1,0 +1,33 @@
+body {
+  box-sizing: border-box;
+  font-family: "Roboto Slab", monospace;
+}
+
+h3 {
+  color: #262b30;
+  margin-bottom: 10px;
+}
+
+.partial-line {
+  width: 70px;
+  height: 5px;
+  background-color: #262b30;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: inline-block;
+  position: relative;
+}
+
+div img {
+  width: 220px;
+  filter: contrast(40%);
+}
+
+.image span {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  color: white;
+}
